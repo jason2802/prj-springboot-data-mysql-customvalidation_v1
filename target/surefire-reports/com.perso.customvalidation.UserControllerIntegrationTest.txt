@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.perso.customvalidation.UserControllerIntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.816 s <<< FAILURE! - in com.perso.customvalidation.UserControllerIntegrationTest
+whenPostRequestToUsersAndInValidUser_thenCorrectResponse(com.perso.customvalidation.UserControllerIntegrationTest)  Time elapsed: 0.029 s  <<< FAILURE!
+java.lang.AssertionError: No value at JSON path "$.name"
+	at com.perso.customvalidation.UserControllerIntegrationTest.whenPostRequestToUsersAndInValidUser_thenCorrectResponse(UserControllerIntegrationTest.java:54)
+Caused by: java.lang.IllegalArgumentException: json can not be null or empty
+	at com.perso.customvalidation.UserControllerIntegrationTest.whenPostRequestToUsersAndInValidUser_thenCorrectResponse(UserControllerIntegrationTest.java:54)
+
