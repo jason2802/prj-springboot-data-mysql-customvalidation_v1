@@ -59,4 +59,26 @@
 		</plugins>
 	</build>
 
+	<!-- Instruction:
+	         deployment to a repository is configured in the pom.xml
+	         for the respective project in the distributionManagement section
+	 -->
+	<distributionManagement>
+		<repository>
+			<id>local.josuefako.repo.id</id>
+			<url>http://localhost:8989/repository/local.josuefako.repo.id/</url>
+		</repository>
+		<snapshotRepository>
+			<id>local.josuefako.repo.id</id>
+			<url>http://localhost:8989/repository/local.josuefako.repo.id/</url>
+		</snapshotRepository>
+
+	</distributionManagement>
+	<!-- Instruction:
+             The credentials used for the deployment are found in the <server>
+              section of your setting.xml
+     -->
+
+
+
 </project>

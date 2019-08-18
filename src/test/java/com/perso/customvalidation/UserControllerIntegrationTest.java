@@ -1,8 +1,7 @@
 package com.perso.customvalidation;
 
-import java.nio.charset.Charset;
-
-import org.hamcrest.core.Is;
+import com.perso.customvalidation.controller.UserController;
+import com.perso.customvalidation.repository.UserRepository;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,8 +14,7 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
-import com.perso.customvalidation.controller.UserController;
-import com.perso.customvalidation.repository.UserRepository;
+import java.nio.charset.Charset;
 
 @RunWith(SpringRunner.class) 
 @WebMvcTest
