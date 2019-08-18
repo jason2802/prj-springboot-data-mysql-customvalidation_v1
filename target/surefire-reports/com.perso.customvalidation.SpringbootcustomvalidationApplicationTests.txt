@@ -1,12 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.perso.customvalidation.SpringbootcustomvalidationApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 29.835 s <<< FAILURE! - in com.perso.customvalidation.SpringbootcustomvalidationApplicationTests
-contextLoads(com.perso.customvalidation.SpringbootcustomvalidationApplicationTests)  Time elapsed: 0.003 s  <<< ERROR!
-java.lang.IllegalStateException: Failed to load ApplicationContext
-Caused by: java.lang.IllegalStateException: Failed to execute CommandLineRunner
-Caused by: org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to acquire JDBC Connection
-Caused by: org.hibernate.exception.JDBCConnectionException: Unable to acquire JDBC Connection
-Caused by: java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
-Caused by: com.mysql.cj.exceptions.InvalidConnectionAttributeException: The server time zone value 'CEST' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.932 s - in com.perso.customvalidation.SpringbootcustomvalidationApplicationTests

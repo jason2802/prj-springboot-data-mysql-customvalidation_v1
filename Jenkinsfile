@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage ('Compile Stage') {
             steps  {
-                withMaven(maven : 'Apache Maven 3.6.1'){
+                withMaven(maven : 'Apache Maven 3.6.1') {
                     sh 'mvn clean compile'
                 }
             }
@@ -12,7 +12,7 @@ pipeline {
 
         stage ('Testing Stage') {
             steps  {
-                withMaven(maven : 'Apache Maven 3.6.1'){
+                withMaven(maven : 'Apache Maven 3.6.1') {
                     sh 'mvn test'
                 }
             }
@@ -20,14 +20,16 @@ pipeline {
 
         stage ('Deployment Stage') {
             steps  {
-                withMaven(maven : 'Apache Maven 3.6.1'){
+                withMaven(maven : 'Apache Maven 3.6.1') {
                     sh 'mvn deploy'
                 }
             }
         }
-
+        
+        stage('Results') {
+            junit '**/target/surefire-reports/TEST-*.xml'
+            archiveArtifacts 'target/*.jar'
+        }
     }
-
-
 
 }

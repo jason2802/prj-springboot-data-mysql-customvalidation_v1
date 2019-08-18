@@ -1,6 +1,6 @@
-/Users/josuefako/IdeaProjects/github-repositories/prj-springboot-data-mysql-customvalidation/src/main/java/com/perso/customvalidation/repository/UserRepository.java
-/Users/josuefako/IdeaProjects/github-repositories/prj-springboot-data-mysql-customvalidation/src/main/java/com/perso/customvalidation/controller/UserController.java
-/Users/josuefako/IdeaProjects/github-repositories/prj-springboot-data-mysql-customvalidation/src/main/java/com/perso/customvalidation/exception/validations.java
-/Users/josuefako/IdeaProjects/github-repositories/prj-springboot-data-mysql-customvalidation/src/main/java/com/perso/customvalidation/exception/ResponseStatus.java
-/Users/josuefako/IdeaProjects/github-repositories/prj-springboot-data-mysql-customvalidation/src/main/java/com/perso/customvalidation/domain/User.java
-/Users/josuefako/IdeaProjects/github-repositories/prj-springboot-data-mysql-customvalidation/src/main/java/com/perso/customvalidation/SpringbootcustomvalidationApplication.java
+/Users/josuefako/IdeaProjects/github-repositories/prj-springboot-data-mysql-customvalidation_v1/src/main/java/com/perso/customvalidation/controller/UserController.java
+/Users/josuefako/IdeaProjects/github-repositories/prj-springboot-data-mysql-customvalidation_v1/src/main/java/com/perso/customvalidation/domain/User.java
+/Users/josuefako/IdeaProjects/github-repositories/prj-springboot-data-mysql-customvalidation_v1/src/main/java/com/perso/customvalidation/exception/validations.java
+/Users/josuefako/IdeaProjects/github-repositories/prj-springboot-data-mysql-customvalidation_v1/src/main/java/com/perso/customvalidation/SpringbootcustomvalidationApplication.java
+/Users/josuefako/IdeaProjects/github-repositories/prj-springboot-data-mysql-customvalidation_v1/src/main/java/com/perso/customvalidation/exception/ResponseStatus.java
+/Users/josuefako/IdeaProjects/github-repositories/prj-springboot-data-mysql-customvalidation_v1/src/main/java/com/perso/customvalidation/repository/UserRepository.java
